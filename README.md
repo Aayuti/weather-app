@@ -1,3 +1,4 @@
+This is a Weather-App developed in React JS, it uses OpenWeatherApi to fetch current weather data of cities across the globe.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
