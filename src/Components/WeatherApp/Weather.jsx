@@ -8,6 +8,7 @@ import clear_icon from '../Assets/clear.png';
 import wind_icon from '../Assets/wind.png';
 import humidity_icon from '../Assets/humidity.png';
 import cloud_icon from '../Assets/cloud.png';
+import sky_icon from '../Assets/sky.png';
 
 
 export const Weather = () => {
@@ -42,7 +43,7 @@ export const Weather = () => {
             </div>
         </div>
         <div className="weather-image">
-            <img src={cloud_icon} alt="cloudy" />
+            <img src={sky_icon} alt="cloudy" />
         </div>
         <div className="weather-temp">
             24°
@@ -51,18 +52,20 @@ export const Weather = () => {
             London
         </div>
         <div className="data-container">
-            <div className="element">
-                <img src={humidity_icon} alt="" className='icon'/>
-                <div className="data">
-                    <div className="humidity-percent">64%</div>
-                    <div className="text">Humidity</div>
-                </div>
-            </div>
+            
             <div className="element">
                 <img src={wind_icon} alt="" className='icon'/>
                 <div className="data">
                     <div className="wind-rate">18 kmph</div>
                     <div className="text">Wind Speed</div>
+                </div>
+            </div>
+
+            <div className="element">
+                <img src={humidity_icon} alt="" className='icon'/>
+                <div className="data">
+                    <div className="humidity-percent">64%</div>
+                    <div className="text">Humidity</div>
                 </div>
             </div>
         </div>
